@@ -1,0 +1,195 @@
+
+/* ============================== Home.js ================================= */
+
+/* page header containing search bar and button */
+.header{
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* search bar */
+.header input {
+    width: 35%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgb(253, 182, 28);
+    padding: 2px 5px;
+    font-size: 1rem;
+    color: #E96D71;
+}
+
+/* apply filter button */
+.header button {
+    float: right;
+    margin-right: 5%;
+    height: 32px;
+    width: 100px;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #E96D71;
+    color:white;
+}
+
+
+/* container containing filter bar and product list */
+.mainContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mainContainer > div {
+    margin: 15px;
+    width: 100%;
+}
+
+
+
+/* ============================ FilterBar.js ==================== */
+
+
+/* filterbar styles */
+.filterBar{
+    box-shadow: 1px 1px 8px 1px grey;;
+    height: 60px;
+    font-size: 1.1rem;
+    background-color: transparent;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    color:#4ca6dd;
+    border-radius: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* filter bar heading */
+.filterBar h1{
+    color:#E96D71;
+}
+
+/* sub heading inside filter bar */
+.filterBar span{
+    color:#E96D71;
+}
+
+/* price range to filter items */
+.priceRange{
+    text-align: center;
+}
+
+/* price range slider */
+.priceRange input {
+    width: 100%;
+    height: 5px;
+}
+
+/* category of the products */
+.categoryBox{
+    display: flex;
+}
+
+/* radio buttons inside category */
+.categoryBox input{
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+
+/* =========================== MainContent.js ===================  */
+
+/* container for all the products */
+.itemContainer{
+    display:flex;
+    flex-wrap: wrap;
+    padding:0 6%;
+}
+
+
+
+/* =========================== ItemCard.js ===========================  */
+
+/* single item container */
+.cardContainer{
+    display: flex;
+    height: 330px;
+    width: 250px;
+    box-shadow: 0px 0px 2px 2px grey;
+    margin: 2%;
+    padding: 5px;
+    flex-direction: column;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+/* image container of product */
+.imageContainer{
+    height: 80%;
+    width: 100%;
+}
+
+/* image within the container */
+.imageContainer img{
+    width: 100%;
+    height: 100%;
+}
+
+/* product description */
+.itemInfo{
+    width: 100%;
+    height: 20%;
+}
+
+/* container of name and price */
+.namePrice{
+    display: flex;
+    height: 45%;
+    text-align: center;
+}
+
+/* name of the product */
+.name{
+    text-align: left;
+    width: 75%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    height: 94%;
+}
+
+/* price of the product */
+.price{
+    width: 25%;
+    color: #ff953a;
+    font-weight: 700;
+    height: 95%;
+}
+
+/* button container within the item */
+.btnContainer{
+    height: 55%;
+}
+
+/* button  inside the container */
+.btnContainer button{
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+/* add to cart button */
+.addBtn{
+    background-image: linear-gradient( 135deg, #ff953a 10%, #DE4313 100%);
+}
+
+/* add button on hovering over it */
+.addBtn:hover{
+    background-image: none;
+    border: 2px solid #ff953a;
+    color: #ff953a;
+    font-weight: 700;
+}
+
