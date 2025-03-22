@@ -34,12 +34,12 @@ A modern e-commerce platform built with **React.js**, **Redux Toolkit**, and **F
 2. Install dependencies:
    ```sh
    npm install
-3. Set up Firebase:
-   Create a Firebase project on the Firebase Console.
+3. Set up Firebase: <br>
+   Create a Firebase project on the Firebase Console. <br>
    Create a Firebase project and add your configuration in src/firebase.js.
 4. Run the app:
    ```sh
-   npm run dev
+   npm start
 
 ## **Deployment**
 Deploy your app easily on Firebase Hosting or any other platform of your choice.
