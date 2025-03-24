@@ -5,16 +5,12 @@ A modern e-commerce platform built with **React.js**, **Redux Toolkit**, and **F
 ## **Live Demo**  
 🔗 **[Explore BuyBusy-Redux](https://buybusy-redux-98381.web.app)**
 
----
-
 ## **Features**  
 ✅ **User Authentication** – Create and log in to your account.  
 ✅ **Cart Management** – Add, remove, and adjust product quantities.  
 ✅ **Order Placement** – Place orders and view purchase summaries.  
 ✅ **Persistent Data** – Cart and order data saved in Firebase.  
 ✅ **Responsive Design** – Optimized for all devices.  
-
----
 
 ## **Tech Stack**  
 - **React.js** – Frontend framework for building user interfaces.  
@@ -23,8 +19,6 @@ A modern e-commerce platform built with **React.js**, **Redux Toolkit**, and **F
 - **Firebase** – Backend database for storing user and order data.  
 - **React Toastify** – Notifications for user actions.  
 - **Bootstrap** – Styling for a clean and modern UI.  
-
----
 
 ## **Getting Started**  
 1. Clone the repository:  
