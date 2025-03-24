@@ -1,4 +1,4 @@
-# **BuyBusy - Redux**  
+# **BuyBusy - E-Commerce Platform **  
 
 A modern e-commerce platform built with **React.js**, **Redux Toolkit**, and **Firebase**, allowing users to create accounts, manage their cart, and place orders seamlessly.  
 
