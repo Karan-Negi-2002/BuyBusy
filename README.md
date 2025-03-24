@@ -22,7 +22,7 @@ A modern e-commerce platform built with **React.js**, **Redux Toolkit**, and **F
 - **React Router DOM** – Navigation and routing.  
 - **Firebase** – Backend database for storing user and order data.  
 - **React Toastify** – Notifications for user actions.  
-- **CSS** – Styling for a clean and modern UI.  
+- **Bootstrap** – Styling for a clean and modern UI.  
 
 ---
 
